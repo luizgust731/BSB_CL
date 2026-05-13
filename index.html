@@ -44,13 +44,18 @@
       50%{opacity:1}
     }
 
-    .plane{
-      position:absolute;
-      top:120px;
-      left:-200px;
-      font-size:70px;
-      animation:fly 18s linear infinite;
-      z-index:1;
+  .plane{
+  position:absolute;
+  top:120px;
+  left:-200px;
+  animation:fly 18s linear infinite;
+  z-index:1;
+}
+
+.plane img{
+  width:120px;
+  height:auto;
+}
     }
 
     @keyframes fly{
@@ -240,7 +245,10 @@
 
   <div class="stars" id="stars"></div>
 
-  <div class="plane">✈️</div>
+  <div class="plane">
+  <img src="https://raw.githubusercontent.com/luizgust731/BSB_CL/main/aviao.png">
+</div>
+
 
   <div class="topbar">
     <div class="mini-card" id="clockChile">
